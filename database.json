@@ -1,0 +1,451 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "name": "Lê Quản Trị",
+      "email": "admin@demo.com",
+      "password": "password123",
+      "role": "admin",
+      "phone": "0901234567",
+      "address": "Tòa nhà FPT, Cầu Giấy, Hà Nội",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "status": "active",
+      "walletBalance": 25000,
+      "joinedDate": "2024-01-15"
+    },
+    {
+      "id": "usr-seller-01",
+      "name": "Trần Thị Bán",
+      "email": "seller@demo.com",
+      "password": "password123",
+      "role": "seller",
+      "phone": "0912345678",
+      "address": "Quận 1, TP. Hồ Chí Minh",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+      "status": "active",
+      "storeName": "TechDeals Official Store",
+      "rating": 99.8,
+      "walletBalance": 14850,
+      "joinedDate": "2024-03-20"
+    },
+    {
+      "id": "usr-buyer-01",
+      "name": "Nguyễn Văn Mua",
+      "email": "buyer@demo.com",
+      "password": "password123",
+      "role": "buyer",
+      "phone": "0987654321",
+      "address": "Ngũ Hành Sơn, Đà Nẵng",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80",
+      "status": "active",
+      "walletBalance": 3200,
+      "joinedDate": "2024-06-10"
+    },
+    {
+      "id": "usr-buyer-02",
+      "name": "Phạm Minh Trí",
+      "email": "tri.pham@demo.com",
+      "password": "password123",
+      "role": "buyer",
+      "phone": "0933221100",
+      "address": "Hải Châu, Đà Nẵng",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=200&q=80",
+      "status": "banned",
+      "walletBalance": 120,
+      "joinedDate": "2024-08-01"
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "Tất cả danh mục",
+      "icon": "Grid"
+    },
+    {
+      "id": "electronics",
+      "name": "Điện tử & Công nghệ",
+      "icon": "Smartphone",
+      "count": 1240
+    },
+    {
+      "id": "fashion",
+      "name": "Thời trang & Giày dép",
+      "icon": "Shirt",
+      "count": 850
+    },
+    {
+      "id": "collectibles",
+      "name": "Sưu tầm & Thẻ bài",
+      "icon": "Award",
+      "count": 430
+    },
+    {
+      "id": "motors",
+      "name": "Xe & Phụ tùng ô tô",
+      "icon": "Car",
+      "count": 620
+    },
+    {
+      "id": "home",
+      "name": "Nhà cửa & Đời sống",
+      "icon": "Home",
+      "count": 910
+    },
+    {
+      "id": "toys",
+      "name": "Đồ chơi & Mô hình",
+      "icon": "Gamepad2",
+      "count": 340
+    },
+    {
+      "id": "sports",
+      "name": "Thể thao & Dã ngoại",
+      "icon": "Dumbbell",
+      "count": 530
+    }
+  ],
+  "heroBanners": [
+    {
+      "id": 1,
+      "title": "Đấu giá nảy lửa - Công nghệ Refurbished",
+      "subtitle": "Giảm đến 50% cho Apple, Sony & Dell chính hãng có bảo hành",
+      "cta": "Khám phá ngay",
+      "badge": "Lượt Đấu Giá Siêu Tốc",
+      "bgGradient": "from-blue-900 via-indigo-900 to-slate-900",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": 2,
+      "title": "Sneakers Limited & Thẻ Bài Sưu Tầm",
+      "subtitle": "Xác thực bởi eBay Authentic Guarantee",
+      "cta": "Đấu giá ngay",
+      "badge": "Đảm Bảo Chính Hãng 100%",
+      "bgGradient": "from-amber-900 via-red-900 to-slate-900",
+      "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": 3,
+      "title": "Phụ Tùng Xe & Xe Đồ Chơi Mô Hình",
+      "subtitle": "Hơn 10.000+ sản phẩm đấu giá bắt đầu từ $0.99",
+      "cta": "Xem danh sách",
+      "badge": "Freeship Toàn Quốc",
+      "bgGradient": "from-emerald-900 via-teal-900 to-slate-900",
+      "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1000&q=80"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-101",
+      "title": "Apple MacBook Pro 16\" M3 Max (36GB RAM, 1TB SSD) - Space Black",
+      "category": "electronics",
+      "type": "auction",
+      "currentBid": 2150,
+      "buyItNowPrice": 2899,
+      "bidsCount": 34,
+      "endTimeSeconds": 9000,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Refurbished",
+      "shipping": "Miễn phí vận chuyển",
+      "location": "California, Hoa Kỳ",
+      "returns": "Đổi trả miễn phí 30 ngày",
+      "watchlistCount": 142,
+      "seller": {
+        "name": "TechDeals_Store",
+        "rating": 99.8,
+        "reviewsCount": 12450,
+        "isTopRated": true
+      },
+      "specs": {
+        "Thương hiệu": "Apple",
+        "Dòng máy": "MacBook Pro 16",
+        "Chip xử lý": "Apple M3 Max 14-core",
+        "RAM": "36 GB Unified",
+        "Ổ cứng": "1 TB NVMe SSD",
+        "Màu sắc": "Space Black",
+        "Tình trạng": "Refurbished chính hãng Apple"
+      },
+      "description": "Máy Macbook Pro 16 inch chip M3 Max đẹp như mới 99.9%, đã được kiểm định kỹ thuật 100% bởi Apple Certified Technicians. Đi kèm sạc Magsafe 140W zin."
+    },
+    {
+      "id": "prod-102",
+      "title": "Giày Nike Air Jordan 1 Retro High OG \"Chicago\" (2022 Lost & Found) Size 42.5",
+      "category": "fashion",
+      "type": "auction",
+      "currentBid": 380,
+      "buyItNowPrice": 520,
+      "bidsCount": 19,
+      "endTimeSeconds": 18720,
+      "images": [
+        "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Mới 100% Nguyên Hộp",
+      "shipping": "$15.00 Vận chuyển Chuyển Phát Nhanh",
+      "location": "Tokyo, Nhật Bản",
+      "returns": "Xác thực eBay Authentic Guarantee",
+      "watchlistCount": 89,
+      "seller": {
+        "name": "KicksVault_JPN",
+        "rating": 99.4,
+        "reviewsCount": 3820,
+        "isTopRated": true
+      },
+      "specs": {
+        "Thương hiệu": "Nike",
+        "Model": "Air Jordan 1 Retro High OG",
+        "Phối màu": "Chicago Lost & Found",
+        "Size": "US 9 / EU 42.5",
+        "Tình trạng": "Mới chưa qua sử dụng (DSWT)"
+      },
+      "description": "Đôi Jordan 1 Chicago huyền thoại full box, hóa đơn mua hàng từ SNKRS Nhật Bản. Có tem kiểm định chính hãng của eBay Authenticity Guarantee."
+    },
+    {
+      "id": "prod-103",
+      "title": "Sony PlayStation 5 Digital Edition Slim (Phiên bản Hàn Quốc) + Tay cầm DualSense",
+      "category": "electronics",
+      "type": "buy_it_now",
+      "currentBid": 0,
+      "buyItNowPrice": 429.99,
+      "bidsCount": 0,
+      "endTimeSeconds": 259200,
+      "images": [
+        "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Mới 100%",
+      "shipping": "Miễn phí vận chuyển",
+      "location": "Seoul, Hàn Quốc",
+      "returns": "Bảo hành 12 tháng",
+      "watchlistCount": 210,
+      "seller": {
+        "name": "GlobalGaming_Express",
+        "rating": 98.9,
+        "reviewsCount": 8900,
+        "isTopRated": false
+      },
+      "specs": {
+        "Thương hiệu": "Sony",
+        "Dòng máy": "PlayStation 5 Slim Digital",
+        "Dung lượng": "1TB SSD Custom",
+        "Độ phân giải": "4K HDR / 120Hz Output",
+        "Màu sắc": "White"
+      },
+      "description": "Máy PS5 Slim phiên bản Digital mỏng nhẹ hơn, trang bị ổ cứng 1TB. Đóng gói đầy đủ phụ kiện zin theo máy."
+    },
+    {
+      "id": "prod-104",
+      "title": "Thẻ Bài Pokemon Charizard 1st Edition Shadowless Holo #4 - PSA 9 Mint",
+      "category": "collectibles",
+      "type": "auction",
+      "currentBid": 4200,
+      "buyItNowPrice": 6500,
+      "bidsCount": 52,
+      "endTimeSeconds": 4200,
+      "images": [
+        "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Đã chấm điểm PSA 9",
+      "shipping": "Vận chuyển bảo mật bảo hiểm $50",
+      "location": "New York, Hoa Kỳ",
+      "returns": "Không nhận đổi trả cho hàng sưu tầm",
+      "watchlistCount": 540,
+      "seller": {
+        "name": "RareCards_Collector",
+        "rating": 100,
+        "reviewsCount": 1540,
+        "isTopRated": true
+      },
+      "specs": {
+        "Tên thẻ": "Charizard Holo #4",
+        "Bộ sưu tập": "Base Set 1st Edition",
+        "Chấm điểm": "PSA 9 Mint",
+        "Năm sản xuất": "1999",
+        "Độ hiếm": "Ultra Rare Shadowless"
+      },
+      "description": "Bảo vật thẻ bài Charizard 1st Edition Shadowless được chấm điểm PSA 9 Mint hoàn hảo. Tem niêm phong vỏ mica nguyên vẹn."
+    },
+    {
+      "id": "prod-105",
+      "title": "Đồng Hồ Nam Rolex Submariner Date 41mm Steel & Yellow Gold (126613LN)",
+      "category": "fashion",
+      "type": "auction",
+      "currentBid": 14100,
+      "buyItNowPrice": 16800,
+      "bidsCount": 28,
+      "endTimeSeconds": 30000,
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Likenew 98% Fullbox",
+      "shipping": "Chuyển phát nhanh FedEx Hỏa Tốc",
+      "location": "Geneva, Thụy Sĩ",
+      "returns": "Xác thực eBay Authenticity Guarantee",
+      "watchlistCount": 312,
+      "seller": {
+        "name": "LuxuryWatches_Chrono",
+        "rating": 99.9,
+        "reviewsCount": 4500,
+        "isTopRated": true
+      },
+      "specs": {
+        "Thương hiệu": "Rolex",
+        "Dòng": "Submariner Date",
+        "Mã Model": "126613LN",
+        "Kích thước mặt": "41 mm",
+        "Chất liệu": "Thép Oystersteel & Vàng vàng 18ct",
+        "Năm sản xuất": "2023"
+      },
+      "description": "Siêu phẩm Rolex Submariner đờ-đơ vàng 18k mặt đen sang trọng, còn đầy đủ hộp sổ thẻ bảo hành chính hãng Rolex đến 2028."
+    },
+    {
+      "id": "prod-106",
+      "title": "Máy Ảnh Mirrorless Sony Alpha A7 IV (Chỉ Thân Máy / Body Only) - 33MP 4K60p",
+      "category": "electronics",
+      "type": "buy_it_now",
+      "currentBid": 0,
+      "buyItNowPrice": 2199,
+      "bidsCount": 0,
+      "endTimeSeconds": 432000,
+      "images": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Mới 100% Chính Hãng",
+      "shipping": "Miễn phí vận chuyển",
+      "location": "California, Hoa Kỳ",
+      "returns": "Đổi trả 30 ngày miễn phí",
+      "watchlistCount": 95,
+      "seller": {
+        "name": "CameraWorld_Direct",
+        "rating": 99.7,
+        "reviewsCount": 22100,
+        "isTopRated": true
+      },
+      "specs": {
+        "Thương hiệu": "Sony",
+        "Model": "Alpha 7 IV (ILCE-7M4)",
+        "Cảm biến": "33MP Full-Frame Exmor R CMOS",
+        "Quay phim": "4K 60p 10-bit 4:2:2",
+        "Chống rung": "5 trục trong thân máy (IBIS)"
+      },
+      "description": "Máy ảnh Sony A7 IV nguyên niêm phong seal hộp, bảo hành chính hãng Sony 24 tháng."
+    },
+    {
+      "id": "prod-107",
+      "title": "Mô Hình Ô Tô Porsche 911 GT3 RS (Tỷ lệ 1:18 AutoArt Diecast) - Lizard Green",
+      "category": "toys",
+      "type": "auction",
+      "currentBid": 185,
+      "buyItNowPrice": 260,
+      "bidsCount": 14,
+      "endTimeSeconds": 1800,
+      "images": [
+        "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Mới trong hộp mica trưng bày",
+      "shipping": "$12.00 Vận chuyển toàn quốc",
+      "location": "Stuttgart, Đức",
+      "returns": "Chấp nhận trả hàng",
+      "watchlistCount": 78,
+      "seller": {
+        "name": "DiecastScale_DE",
+        "rating": 99.2,
+        "reviewsCount": 1980,
+        "isTopRated": false
+      },
+      "specs": {
+        "Hãng sản xuất mô hình": "AutoArt Composite",
+        "Mẫu xe": "Porsche 911 GT3 RS",
+        "Tỷ lệ": "1:18",
+        "Màu sơn": "Lizard Green",
+        "Tính năng": "Mở cửa, nắp capo, chi tiết động cơ tỉ mỉ"
+      },
+      "description": "Mô hình xe Porsche 911 GT3 RS vô cùng tinh xảo củaAutoArt, góc mở cửa và tay lái chuyển động mượt mà."
+    },
+    {
+      "id": "prod-108",
+      "title": "Bộ Tai Nghe Không Dây Apple AirPods Pro 2nd Gen USB-C (MagSafe Case)",
+      "category": "electronics",
+      "type": "buy_it_now",
+      "currentBid": 0,
+      "buyItNowPrice": 189,
+      "bidsCount": 0,
+      "endTimeSeconds": 864000,
+      "images": [
+        "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&w=800&q=80"
+      ],
+      "condition": "Mới 100% Seal Hộp",
+      "shipping": "Miễn phí giao hàng hỏa tốc 2 ngày",
+      "location": "Texas, Hoa Kỳ",
+      "returns": "Đổi trả miễn phí 30 ngày",
+      "watchlistCount": 430,
+      "seller": {
+        "name": "TechDeals_Store",
+        "rating": 99.8,
+        "reviewsCount": 12450,
+        "isTopRated": true
+      },
+      "specs": {
+        "Thương hiệu": "Apple",
+        "Dòng": "AirPods Pro Gen 2",
+        "Cổng sạc": "USB-C / MagSafe Wireless",
+        "Tính năng": "Chống ồn chủ động ANC, Spatial Audio",
+        "Thời lượng pin": "Đến 6 giờ (30 giờ kèm hộp sạc)"
+      },
+      "description": "AirPods Pro 2 bản cổng sạc USB-C mới nhất. Bảo hành chính hãng Apple 12 tháng."
+    }
+  ],
+  "bids": [
+    {
+      "id": "bid-001",
+      "productId": "prod-101",
+      "productTitle": "Apple MacBook Pro 16\" M3 Max",
+      "userId": "usr-buyer-01",
+      "userName": "Nguyễn Văn Mua",
+      "bidAmount": 2150,
+      "timestamp": "2026-10-23T10:15:00Z",
+      "status": "winning"
+    },
+    {
+      "id": "bid-002",
+      "productId": "prod-102",
+      "productTitle": "Giày Nike Air Jordan 1 Retro High OG \"Chicago\"",
+      "userId": "usr-buyer-01",
+      "userName": "Nguyễn Văn Mua",
+      "bidAmount": 380,
+      "timestamp": "2026-10-23T08:30:00Z",
+      "status": "outbid"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-8921",
+      "userId": "usr-buyer-01",
+      "orderDate": "2026-10-15",
+      "items": [
+        {
+          "productId": "prod-103",
+          "productTitle": "Đàn Guitar Điện Fender Custom Shop 1960",
+          "price": 3450,
+          "quantity": 1
+        }
+      ],
+      "total": 3450,
+      "paymentMethod": "Chuyển khoản QR",
+      "status": "Đang vận chuyển",
+      "recipient": {
+        "fullName": "Nguyễn Văn Mua",
+        "phone": "0987654321",
+        "address": "Ngũ Hành Sơn, Đà Nẵng"
+      }
+    }
+  ]
+}
